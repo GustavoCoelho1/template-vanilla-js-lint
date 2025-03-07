@@ -5,5 +5,8 @@
     "tag-pair": true,
     "tagname-lowercase": true,
     "id-unique": true,
-    "src-not-empty": true
+    "src-not-empty": true,
+    "img-alt-require": true,
+    "title-require": true,
+    "html-lang-require": true
 }
