@@ -1,0 +1,24 @@
+{
+    "name": "template-vanilla-js-ts",
+    "version": "1.0.0",
+    "description": "Template para projetos Vanilla JS e TypeScript com linting configurado",
+    "author": "Gustavo Coelho",
+    "license": "MIT",
+    "devDependencies": {
+        "@eslint/js": "^9.21.0",
+        "@typescript-eslint/eslint-plugin": "^8.26.0",
+        "@typescript-eslint/parser": "^8.26.0",
+        "eslint": "^8.57.1",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-prettier": "^5.2.3",
+        "htmlhint": "^1.1.4",
+        "prettier": "^3.5.3",
+        "stylelint": "^16.15.0",
+        "stylelint-config-standard": "^37.0.0",
+        "typescript": "^5.0.0"
+    },
+    "scripts": {
+        "build": "tsc --outDir ./src/scripts/js",
+        "watch": "tsc --watch --outDir ./src/scripts/js"
+    }
+}
